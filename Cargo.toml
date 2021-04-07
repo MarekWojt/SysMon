@@ -1,0 +1,13 @@
+[package]
+name = "sysmon"
+version = "0.1.0"
+authors = ["marek <marek.wojt@web.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sysinfo = "*"
+tungstenite = "*"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
